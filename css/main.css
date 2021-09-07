@@ -265,8 +265,9 @@ footer .copyright {
 #overlay {
   background-color: black;
   height: 16.7rem;
-  margin-top: 4rem;
+  margin-top: -0.3rem;
   opacity: 0.3;
+  width: 18rem;
 }
 
 .intro {
@@ -277,11 +278,20 @@ footer .copyright {
   justify-content: center;
 }
 
+.intro img {
+ /* position: relative;*/
+  /*margin-left: -7rem;*/
+  margin-left: 2.1rem;
+  margin-top: 0.8rem;
+  /*top: -21.5rem;*/
+  width: 2.3rem;
+}
+
 .intro h1 {
   font-family: 'pristina';
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
-  margin-left: -0.7rem;
+  margin-left: 2.3rem;
   margin-top: -1rem;
 }
 
@@ -290,16 +300,24 @@ footer .copyright {
   font-size: 1.2rem;
   font-style: italic;
   line-height: 0.9rem;
-  margin-left: -8.7rem;
-  margin-top: -14rem;
+  margin-left: 2.3rem;
+  margin-top: 6rem;
   word-wrap: break-word;
   width: 5rem;
 }
 
 .our_services {
   background-color: #CEB3A1;
-  height: 10rem;
+  /*height: 10rem;*/
+  height: 13rem;
   margin-top: -1.5rem;
+}
+
+.our_services h2 {
+  font-family: 'papyrus';
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 .our_services p {
@@ -312,11 +330,20 @@ footer .copyright {
   width: 59%;
 }
 
-.our_services h2 {
-  font-family: 'papyrus';
-  font-size: 1.4rem;
-  padding-top: 1.5rem;
-  text-align: center;
+#btn{
+ position: relative;
+ left: 10rem;
+ top: -0.4rem;
+}
+
+#btn, .button{
+  background-color: #BF4225;
+  color: white;
+	display: inline-block;
+  font-size: 0.6rem;
+	font-weight: 300;
+	margin: 10px;
+	padding: 0.1px 1px;
 }
 
 .visual h2 {
@@ -349,6 +376,10 @@ hr {
     width: 43%;
 }
 
+footer h3 {
+  font-size: 1.1rem;
+}
+
 footer p {
   font-size: 0.9rem;
   line-height: 0.1rem;
@@ -364,9 +395,9 @@ footer tr {
   font-size: 0.7rem;
 }
 
- #social p {
-  font-size: 0.9rem;
-  line-height: 0.1rem;
+ .social-icons img {
+   margin-top: 2.8rem;
+   width: 1.5rem;
 }
 
 
