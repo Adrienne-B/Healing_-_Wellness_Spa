@@ -241,17 +241,6 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social-icons p {
-  align-items: center;
-  border: 1px solid #FF6500;
-  border-radius: 200px;	
-  color: darkorange;	
-  display: flex;
-  height: 40px;	
-  justify-content: center;	
-  width: 40px;				/*margin-right: 2em;*/
-}
-
 footer .social-icons p i {
   font-size: 1.3125em;
 }
@@ -267,20 +256,73 @@ footer .copyright {
 /* -------------------- Mobile Styles - Homepage -------------------- */ 
 
 .intro  {
-  background-image:url(intro.jpg);
+  background-image:url(../css/img/intro.jpg);
   background-repeat: no-repeat;
-	background-size: cover;
+  background-size: cover;
+  height: 17rem;
+}
+
+#overlay {
+  background-color: black;
+  height: 16.7rem;
+  margin-top: 4rem;
+  opacity: 0.3;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro h1 {
+  font-family: 'pristina';
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  margin-left: -0.7rem;
+  margin-top: -1rem;
+}
+
+.intro h2 {
+  font-family: 'OFL Sorts Mill Goudy';
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 0.9rem;
+  margin-left: -8.7rem;
+  margin-top: -14rem;
+  word-wrap: break-word;
+  width: 5rem;
+}
+
+.our_services {
+  background-color: #CEB3A1;
+  height: 10rem;
+  margin-top: -1.5rem;
 }
 
 .our_services p {
-  background-color: #CEB3A1;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  margin-left: 5.3rem;
+  margin-top: -0.6rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 59%;
+}
+
+.our_services h2 {
+  font-family: 'papyrus';
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 .visual h2 {
   color: #000;
   font-family: 'pristina';
+  font-size: 1.4rem;
   text-align: center;
 }
 
@@ -297,16 +339,35 @@ hr {
 
 #facial img, #waxing img {
   height: 14rem;
-  margin-left: 7rem;
+  margin-left: 7.3rem;
   width: 43%;
 }
 
 #massages img {
     height: 8rem;
-    margin-left: 7rem;
+    margin-left: 7.1rem;
     width: 43%;
 }
 
+footer p {
+  font-size: 0.9rem;
+  line-height: 0.1rem;
+  margin-left: 2.78rem;
+  text-align: left;
+}
+
+footer #store_hours {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+footer tr {
+  font-size: 0.7rem;
+}
+
+ #social p {
+  font-size: 0.9rem;
+  line-height: 0.1rem;
+}
 
 
 /* ==========================================================================
