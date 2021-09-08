@@ -255,7 +255,7 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */ 
 
-.intro  {
+.hero-area  {
   background-image:url(../css/img/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,10 +263,9 @@ footer .copyright {
 }
 
 #overlay {
-  background-color: black;
-  height: 16.7rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 16.9rem;
   margin-top: -0.3rem;
-  opacity: 0.3;
   width: 18rem;
 }
 
@@ -602,4 +601,4 @@ footer tr {
     page-break-after: avoid;
   }
 }
-
+   }
