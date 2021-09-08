@@ -16,230 +16,274 @@
 
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" href="hamburger/css/main.css">
 
         <title>Healing & Wellness Spa | HOME</title>
     </head>
 
 
-
-
-
-
-    <body>
+        
+  <body>
+    <header>
+      <!--<div class="nav-scrolled">-->
+        <nav>
+          <ul>
+            <li><a href="#" target="_blank">HOME</a></li>
+            
+            <li><a href="#about-section">ABOUT</a></li>
+            
+            <li><a href="#resume-section">RESUME</a></li>
+            
+            <li><a href="#portfolio-section">PORTFOLIO</a></li>
+            
+            <li><a href="#contact-section">CONTACT</a></li>
+          
+          </ul>
+        </nav>
       
+    
       
-        <main>
-            <section class="hero-area">
-              <div class="intro">
-              <div id="overlay">
+        <div id="menu-bar">
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
 
+          <ul class="nav" id="nav">
+            <li><a href="#">Home</a></li>
+            
+            <li><a href="#about-section" target="_blank">About</a></li>
+            
+            <li><a href="#resume-section">Resume</a></li>
+            
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="menu-bg" id="menu-bg"></div>	
+    </header>
+        
+    
+    
+  <!------ END OF NAVIGATION BAR SECTION----->	
+        
+        
+    <main>
+      <section class="hero-area">
+        <div class="intro">
+          <div id="overlay">
+            <figure>
+              <img src="img/logo.png" alt="logo"/>
+            </figure>
 
-              
-                <figure>
-                  <img src="img/logo.png" alt="logo"/>
-                </figure>
+            <h2>Welcome to</h2>
+            <h1>Healing & Wellness Spa</h1>
+          </div>
+        </div>
+      </section>
 
-                <h2>Welcome to</h2>
-                <h1>Healing & Wellness Spa</h1>
+              <!-- Ending of intro section-->
+
+      <section class="our_services">
+        <h2>Our Services</h2>
+          <p>Lectus arcu bibendum at varius vel pharetra vel turpis. Gravida in fermentum et sollicitudin ac.
+          itae ultricies leo integer malesuada nunc vel. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.</p>
+
+          <div id="btn">
+            <a href="./order/index.html" class="button"> BOOK NOW</a>
+          </div>
+      </section>
+
+              <br>
+              <br>
+              <br>
+
+              <!-- Ending of Our session section-->
+          
+      <section class="visual">
+        <div id="facial">
+          <figure>
+            <img src="img/facial.jpg" alt="facial"/>
+          </figure>
+            <h2>Facials</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <br>
+              <br>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+              <br>
+              <hr>
+              <br>
+              <br>
+
+        <div id="massages">
+          <figure>
+            <img src="img/massage.png" alt="massage"/>
+              </figure>
+                <h2>Massages</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      
+                <br>
+                <br> 
+
+                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  commodo consequat.</p>
+        </div>
+
+                <br>
+                <hr>
+                <br>
+                <br>
+
+        <div id="waxing">
+          <figure>
+            <img src="img/waxing.png" alt="waxing"/>
+          </figure>
+            <h2>Waxing</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      
+                  <br>
+                  <br> 
+
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+        </div>
+      </section>
+    </main>
+
+            <!-- Ending of Visual and Ending of main tag-->
+          
+    <footer>
+      <div class="content-wrapper">
+        <div class="footer-content">
+          <div class="information">
+            <h3>Address</h3>
+              <address>
+                <p>Healing & Wellness Spa</p>
+
+                  <br>
+
+                <p>3248 Melvin Blvd</p>
+
+                  <br>
+
+                <p>Building 24</p> 
+
+                  <br>
+
+                <p>Beverly Hills, CA 90035</p>
+              </address>
+              <!--It is good to have address tags around contact list so that the browser knows that it contains contact information--> 
+            </div>
+                              
+            <div id="store_hours">
+              <h3>Store Hours</h3>
+                <address>
+                  <table style="width:100%">
+                    <tr>
+                      <td>Sunday</td>
+                      <td>12:00 AM - 6:00 PM</td>
+                    </tr>
+
+                     <tr>
+                       <td>Monday</td>
+                       <td>9:00 AM - 8:00 PM</td>
+                     </tr>
+
+                    <tr>
+                      <td>Tuesday</td>
+                      <td>9:00 AM - 8:00 PM</td>
+                    </tr>
+
+                    <tr>
+                      <td>Wednesday</td>
+                      <td>9:00 AM - 8:00 PM</td>
+                    </tr>
+
+                    <tr>
+                      <td>Thursday</td>
+                      <td>9:00 AM - 8:00 PM</td>
+                    </tr>
+
+                    <tr>
+                      <td>Friday</td>
+                      <td>9:00 AM - 8:00 PM</td>
+                    </tr>
+
+                    <tr>
+                      <td>Saturday</td>
+                      <td>9:00 AM - 8:00 PM</td>
+                    </tr>
+                  </table>    
+                </address>
+              </div>
+
+              <div id="information"></div>
+                <h3>More Information</h3>
+                   <address>
+                      <p>Terms and Condition</p>
+                      <br>
+                      <p>Privacy Policy</p>
+                      <br>
+                      <p>Cookie Policy</p>
+                      <br>
+                      <p>Press</p>
+                      <br>
+                      <p>Blog</p>
+                      </br>
+                    </address>
+              </div>
+
+              <div id="social">
+               <h3>Contact</h3>
+                <p>Phone: 310-888-8888</p>
+                  <br>
+                <p>Email: H&Wspa@gmail.com</p>
+
+                <div class="social-icons">
+                  <figure>
+                    <img src="img/facebook.png" alt="facebook"/>
+                  </figure>
+                          
+                  <figure>
+                    <img src="img/linkedin.png" alt="linkedin"/>
+                  </figure>
+                                  
+                  <figure>
+                   <img src="img/instagram.png" alt="instagram"/>
+                  </figure>
+
+                  <figure>
+                    <img src="img/twitter.png" alt="twitter"/>
+                  </figure>
+                </div>
               </div>
             </div>
-            
-            </section>
+          </div>
+          
+              <div class="copyright">
+              </div>
+          </footer>
+    
+    
+    <!---------------------------- FOOTER SECTION/Ends Here ----------------------------->
+    
+    
+    
+    
+  <!-- Add your site or application content here -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src= "hamburger/js/javascript.js"></script>
 
-            <!-- Ending of intro section-->
-
-            <section class="our_services">
-                <h2>Our Services</h2>
-                <p>Lectus arcu bibendum at varius vel pharetra vel turpis. Gravida in fermentum et sollicitudin ac.
-                   Vitae ultricies leo integer malesuada nunc vel. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.</p>
-
-                <div id="btn">
-                  <a href="./order/index.html" class="button">
-                     BOOK NOW</a>
-                </div>
-            </section>
-
-            <br>
-            <br>
-            <br>
-
-            <!-- Ending of Our session section-->
-        
-            <section class="visual">
-                <div id="facial">
-                  <figure>
-                    <img src="img/facial.jpg" alt="facial"/>
-                  </figure>
-                  <h2>Facials</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    <br>
-                    <br>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <br>
-
-                <div id="massages">
-                  <figure>
-                    <img src="img/massage.png" alt="massage"/>
-                  </figure>
-                  <h2>Massages</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br> 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  commodo consequat.</p>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <br>
-
-                <div id="waxing">
-                  <figure>
-                    <img src="img/waxing.png" alt="waxing"/>
-                  </figure>
-                  <h2>Waxing</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br> 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
-                </div>
-            </section>
-         </main>
-
-          <!-- Ending of Visual and Ending of main tag-->
-         
-        <footer>
-            <div class="content-wrapper">
-                <div class="footer-content">
-                    <div class="information">
-                        <h3>Address</h3>
-                            <address>
-                                <p>Healing & Wellness Spa</p>
-                                <br>
-                                <p>3248 Melvin Blvd</p>
-                                <br>
-                                <p>Building 24</p> 
-                                <br>
-                                <p>Beverly Hills, CA 90035</p>
-                            </address>
-            <!--It is good to have address tags around contact list so that the browser knows that it contains contact information--> 
-                        </div>
-                            
-                      <div id="store_hours">
-                        <h3>Store Hours</h3>
-                            <address>
-                                <table style="width:100%">
-                                    <tr>
-                                      <td>Sunday</td>
-                                      <td>12:00 AM - 6:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Monday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Tuesday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Wednesday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Thursday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Friday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Saturday</td>
-                                      <td>9:00 AM - 8:00 PM</td>
-                                    </tr>
-                                  </table>    
-                            </address>
-                        </div>
-
-                       <div id="information"></div>
-                        <h3>More Information</h3>
-                            <address>
-                                <p>Terms and Condition</p>
-                                <br>
-                                <p>Privacy Policy</p>
-                                <br>
-                                <p>Cookie Policy</p>
-                                <br>
-                                <p>Press</p>
-                                <br>
-                                <p>Blog</p>
-                                </br>
-                            </address>
-                        </div>
-
-
-                    <div id="social">
-                        <h3>Contact</h3>
-                        <p>Phone: 310-888-8888</p>
-                        <br>
-                        <p>Email: H&Wspa@gmail.com</p>
-
-                        <div class="social-icons">
-                          <figure>
-                            <img src="img/facebook.png" alt="facebook"/>
-                          </figure>
-                        
-                          <figure>
-                            <img src="img/linkedin.png" alt="linkedin"/>
-                          </figure>
-                                
-                          <figure>
-                            <img src="img/instagram.png" alt="instagram"/>
-                          </figure>
-
-                           <figure>
-                              <img src="img/twitter.png" alt="twitter"/>
-                            </figure>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="copyright">
-            </div>
-        </footer>
-	
-	
-	<!---------------------------- FOOTER SECTION/Ends Here ----------------------------->
-	
-	
-	
-	
- <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-	
-  <script src= "./hamburger/js/javascript.js">
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-	
-	
-	
-</body>
+    
+  </body>
 </html>
-	
+    
 	
 	
 

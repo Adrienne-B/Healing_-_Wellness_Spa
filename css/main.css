@@ -255,6 +255,10 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */ 
 
+header {
+  padding: 0px 0; /*makes the height of the header longer*/
+}
+      
 .hero-area  {
   background-image:url(../css/img/intro.jpg);
   background-repeat: no-repeat;
@@ -266,7 +270,7 @@ footer .copyright {
   background-color: rgba(0, 0, 0, 0.3);
   height: 16.9rem;
   margin-top: -0.3rem;
-  width: 18rem;
+  width: 26rem;
 }
 
 .intro {
@@ -280,7 +284,7 @@ footer .copyright {
 .intro img {
  /* position: relative;*/
   /*margin-left: -7rem;*/
-  margin-left: 2.1rem;
+  margin-left: 5.5rem;
   margin-top: 0.8rem;
   /*top: -21.5rem;*/
   width: 2.3rem;
@@ -290,7 +294,7 @@ footer .copyright {
   font-family: 'pristina';
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
-  margin-left: 2.3rem;
+  margin-left: 5.5rem;
   margin-top: -1rem;
 }
 
@@ -299,7 +303,7 @@ footer .copyright {
   font-size: 1.2rem;
   font-style: italic;
   line-height: 0.9rem;
-  margin-left: 2.3rem;
+  margin-left: 5.6rem;
   margin-top: 6rem;
   word-wrap: break-word;
   width: 5rem;
