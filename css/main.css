@@ -284,29 +284,29 @@ header {
 .intro img {
  /* position: relative;*/
   /*margin-left: -7rem;*/
-  margin-left: 5.5rem;
-  margin-top: 0.8rem;
+  margin-left: 2.6rem;
+  margin-top: 2rem;
   /*top: -21.5rem;*/
-  width: 2.3rem;
+  width: 2.7rem;
 }
 
 .intro h1 {
   font-family: 'pristina';
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  margin-left: 5.5rem;
+  margin-left: 2.4rem;
   margin-top: -1rem;
 }
 
 .intro h2 {
   font-family: 'OFL Sorts Mill Goudy';
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-style: italic;
-  line-height: 0.9rem;
-  margin-left: 5.6rem;
+  line-height: 1.2rem;
+  margin-left: 2.9rem;
   margin-top: 6rem;
   word-wrap: break-word;
-  width: 5rem;
+  width: 25%;
 }
 
 .our_services {
@@ -495,8 +495,208 @@ footer tr {
 
    @media only screen and (min-width:768px) {
     /*Tablet styles here*/
+ header {
+  padding: 0px 0; /*makes the height of the header longer*/
+ }
+
+ header img {
+   margin-top: 3rem;
+ }
+
+ .intro img {
+  /* position: relative;*/
+   /*margin-left: -7rem;*/
+   margin-left: 2.6rem;
+   margin-top: 3.5rem;
+   /*top: -21.5rem;*/
+   width: 5.7rem;
+ }
+    
+.hero-area  {
+   background-image:url(../css/img/intro.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 37rem;
+}
+    
+#overlay {
+   background-color: rgba(0, 0, 0, 0.3);
+   height: 36.9rem;
+   margin-top: -0.3rem;
+   width: 49rem;
+}
+    
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+    
+.intro img {
+    margin-left: 5.5rem;
+    margin-top: 2.5rem;
+    width: 4.9rem;
+}
+    
+.intro h1 {
+    font-family: 'pristina';
+    font-size: 3.8rem;
+    letter-spacing: 0.1rem;
+    margin-left: 5.5rem;
+    margin-top: -2rem;
+}
+    
+.intro h2 {
+    font-family: 'OFL Sorts Mill Goudy';
+    font-size: 3.6rem;
+    font-style: italic;
+    line-height: 1.9rem;
+    margin-left: 5.6rem;
+    margin-top: 6rem;
+    word-wrap: break-word;
+    width: 13rem;
+}
+
+.intro h1,  .intro h2 {
+    position: relative;
+    left: 4px;
+    top: 141px;
+}
+    
+ .our_services {
+    background-color: #CEB3A1;
+      /*height: 10rem;*/
+    height: 28rem;
+    margin-top: -2.5rem;
+}
+    
+    .our_services h2 {
+    font-family: 'papyrus';
+    font-size: 2.4rem;
+    padding-top: 3.5rem;
+    text-align: center;
+}
+    
+.our_services p {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-left: 4.3rem;
+    margin-top: -0.6rem;
+    text-align: center;
+    word-wrap: break-word;
+    width: 84%;
+}
+    
+ #btn {
+    position: relative;
+    left: 17rem;
+    top: -0.4rem;
+}
+    
+#btn, .button{
+    background-color: #BF4225;
+    color: white;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 10px;
+    padding: 8.1px 12px;
+}
+    
+.visual h2 {
+    color: #000;
+    font-family: 'pristina';
+    font-size: 3.4rem;
+    text-align: center;
+    margin-right: 2rem;
+ }
+    
+.visual p {
+    word-wrap: break-word;
+    font-family: 'papyrus';
+    font-size: 2.0rem;
+    margin-left: 10rem;
+    text-align: justify;
+    width: 56%;
+}
+    
+hr {
+    border-bottom: 17px dotted #EAD7CA;
+}
+    
+#facial img, #waxing img {
+    height: 36rem;
+    margin-left: 10.3rem;
+    padding-top: 4rem;
+    width: 55%;
+}
+    
+#massages img {
+    height: 21rem;
+    margin-left: 11.1rem;
+    width: 54%;
+}
+  
+    footer /*.content-font*/{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /*align-items: center;
+      justify-content: center;*/
+    }
+    
+    .footer-content{
+    /*  display: flex;*/
+     /* flex-flow: row wrap;*/
+      /*align-items: center;*/
+      justify-content: space-around;
+    }
+      
+    footer .information address {
+        flex-basis: 73%;
+    }
+      
+      
+    .footer p{
+      font-size: 1.134em;
+      overflow-wrap: break-word;
+      width: 95%;
+    }
+    
 
 
+
+
+
+
+
+
+
+    footer h3 {
+      font-size: 2.1rem;
+    }
+    
+    footer p {
+      font-size: 0.9rem;
+      line-height: 0.1rem;
+      margin-left: 2.78rem;
+      text-align: left;
+    }
+    
+    footer #store_hours {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    footer tr {
+      font-size: 0.7rem;
+    }
+    
+     .social-icons img {
+       margin-top: 2.8rem;
+       width: 1.5rem;
+    }
 
 
 
