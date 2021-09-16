@@ -349,7 +349,7 @@ header {
 	padding: 0.1px 1px;
 }
 
-.visual h2 {
+.visual h2, .visual_2 h2 {
   color: #000;
   font-family: 'pristina';
   font-size: 1.4rem;
@@ -362,6 +362,13 @@ header {
   margin-left: 7.0rem;;
   width: 48%;
 }
+
+.visual_2 p {
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  margin-left: 7.0rem;;
+  width: 48%;
+} 
 
 hr {
   border-bottom: 7px dotted #EAD7CA;
@@ -493,6 +500,14 @@ footer tr {
    ========================================================================== */
 
 
+
+
+
+/* ==========================================================================
+		Home Tablet Size
+   ========================================================================== */
+
+
    @media only screen and (min-width:768px) {
     /*Tablet styles here*/
  header {
@@ -572,7 +587,7 @@ footer tr {
     margin-top: -2.5rem;
 }
     
-    .our_services h2 {
+.our_services h2 {
     font-family: 'papyrus';
     font-size: 2.4rem;
     padding-top: 3.5rem;
@@ -604,87 +619,133 @@ footer tr {
     margin: 10px;
     padding: 8.1px 12px;
 }
-    
-.visual h2 {
-    color: #000;
-    font-family: 'pristina';
-    font-size: 3.4rem;
-    text-align: center;
-    margin-right: 2rem;
- }
-    
+ 
+
+.visual h2, .visual_2 h2 {
+  color: #000;
+  font-family: 'pristina';
+  font-size: 3.4rem;
+  text-align: center;
+}
+
 .visual p {
-    word-wrap: break-word;
-    font-family: 'papyrus';
-    font-size: 2.0rem;
-    margin-left: 10rem;
-    text-align: justify;
-    width: 56%;
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  font-size: 1.9rem;
+  margin-left: 12rem;
+  text-align: justify;
+  width: 52%;
 }
-    
+
+.visual_2 p {
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  margin-left: 7.0rem;;
+  width: 48%;
+} 
+
 hr {
-    border-bottom: 17px dotted #EAD7CA;
+  border-bottom: 17px dotted #EAD7CA;
 }
-    
+
 #facial img, #waxing img {
-    height: 36rem;
-    margin-left: 10.3rem;
-    padding-top: 4rem;
-    width: 55%;
+  height: 30rem;
+  margin-left: 11.8rem;
+  width: 50%;
 }
-    
+
 #massages img {
-    height: 21rem;
+    height: 19rem;
     margin-left: 11.1rem;
-    width: 54%;
+    width: 50%;
 }
-  
-    footer /*.content-font*/{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+
+#massages p {
+  font-size: 1.9rem;
+  height: 19rem;
+  margin-left: 11.1rem;
+  text-align: justify;
+  width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
       /*align-items: center;
       justify-content: center;*/
-    }
+}
     
-    .footer-content{
-    /*  display: flex;*/
+.content-wrapper {
+    display: flex;
      /* flex-flow: row wrap;*/
       /*align-items: center;*/
-      justify-content: space-around;
-    }
+   justify-content: space-around;
+   margin-left: -55rem;
+}
       
-    footer .information address {
+.content-wrapper h3 {
+  font-size: 1.6rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content h3 {
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  width: 167%;
+}
+
+.content-wrapper p {
+  font-size: 1.5rem;
+}
+
+.content-wrapper tr {
+  font-size: 1.4rem;
+  word-wrap: break-word;
+  width: 12rem;
+}
+/*.footer-content address {
         flex-basis: 73%;
+        margin-left: 2rem;
     }
       
+    .footer-content #social {
+      margin-left: -2rem;
+    }
       
-    .footer p{
-      font-size: 1.134em;
+    footer p{
+      font-size: 1.4em;
+      line-height: 0.3rem;
+      margin-left: -20rem;
       overflow-wrap: break-word;
-      width: 95%;
+      width: 200%;
     }
     
 
 
 
 
-
-
-
-
-
-    footer h3 {
+   /* footer h3 {
       font-size: 2.1rem;
-    }
+    }*/
     
-    footer p {
+    /*footer p {
       font-size: 0.9rem;
       line-height: 0.1rem;
       margin-left: 2.78rem;
       text-align: left;
-    }
+    }*/
     
+    /*
     footer #store_hours {
       margin-top: 3rem;
       margin-bottom: 3rem;
@@ -693,10 +754,281 @@ hr {
       font-size: 0.7rem;
     }
     
+.info {
+  margin-left: 23rem;
+}*/
+
+
      .social-icons img {
        margin-top: 2.8rem;
        width: 1.5rem;
     }
+
+
+
+
+
+
+/* ==========================================================================
+		Home Desktop size
+   ========================================================================== */
+
+	
+   @media only screen and (min-width:1200px) {
+
+
+   /*Tablet styles here*/
+   header {
+    padding: 0px 0; /*makes the height of the header longer*/
+   }
+  
+   header img {
+     margin-top: 3rem;
+   }
+  
+   .intro img {
+    /* position: relative;*/
+     /*margin-left: -7rem;*/
+     margin-left: 2.6rem;
+     margin-top: 3.5rem;
+     /*top: -21.5rem;*/
+     width: 5.7rem;
+   }
+      
+  .hero-area  {
+     background-image:url(../css/img/intro.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 75rem;
+  }
+      
+  #overlay {
+     background-color: rgba(0, 0, 0, 0.3);
+     height: 73.6rem;
+     margin-top: -0.3rem;
+     width: 100%;
+  }
+      
+  .intro {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+  }
+      
+  .intro img {
+      margin-left: 5.8rem;
+      margin-top: 4rem;
+      width: 6.9rem;
+  }
+      
+  .intro h1 {
+      font-family: 'pristina';
+      font-size: 4.7rem;
+      letter-spacing: 0.1rem;
+      margin-left: 5.5rem;
+      margin-top: 21rem;
+  }
+      
+  .intro h2 {
+      font-family: 'OFL Sorts Mill Goudy';
+      font-size: 3.6rem;
+      font-style: italic;
+      line-height: 1.9rem;
+      margin-left: 5.6rem;
+      margin-top: 6rem;
+      word-wrap: break-word;
+      width: 13rem;
+  }
+  
+  .intro h1,  .intro h2 {
+      position: relative;
+      left: 4px;
+      top: 141px;
+  }
+      
+  .our_services {
+      background-color: #CEB3A1;
+        /*height: 10rem;*/
+      height: 43rem;
+      margin-top: -5.3rem;
+  }
+      
+ .our_services h2 {
+      font-family: 'papyrus';
+      font-size: 4.4rem;
+      padding-top: 9.5rem;
+      text-align: center;
+  }
+      
+  .our_services p {
+      color: #fff;
+      font-size: 1.8rem;
+      margin-left: 4.3rem;
+      margin-top: -0.6rem;
+      text-align: center;
+      word-wrap: break-word;
+      width: 84%;
+  }
+      
+   #btn {
+      position: relative;
+      left: 30rem;
+      top: 2.6rem;
+  }
+      
+  #btn, .button{
+      background-color: #BF4225;
+      color: white;
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin: 10px;
+      padding: 8.1px 12px;
+  }
+    
+.visual #facial {
+  display: flex;
+}
+
+.visual #massage {
+  display: flex;
+}
+
+.visual h2, .visual_2 h2 {
+    color: #000;
+    font-family: 'pristina';
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: -12rem;
+ }
+    
+hr {
+    border-bottom: 17px dotted #EAD7CA;
+}
+   
+ #facial h2 {
+  margin-left: 4rem;
+}
+
+#facial img {
+    height: 25rem;
+    margin-left: 9.3rem;
+    padding-top: 10.2rem;
+    width: 95%;
+}
+
+#facial p {
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  margin-top: 12.8rem;
+  text-align: justify;
+  width: 39%;
+}
+
+hr {
+  padding-top: 7rem;
+}
+
+.visual_2 {
+  display: flex;
+}
+
+#massages img {
+  height: 20.6rem;
+  margin-left: 8.1rem;
+  padding-top: 9rem;
+  width: 34%;
+}
+
+#massages h2 {
+  margin-top: -20.4rem;
+}
+
+#massages p {
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  font-size: 1.8rem;
+  padding-left: 25rem;
+  margin-top: -1.2rem;
+  text-align: justify;
+  width: 39%;
+}
+
+#waxing img {
+  height: 24rem;
+  margin-left: 3.3rem;
+  padding-top: 9rem;
+  width: 39%;
+}
+  
+#waxing h2 {
+  margin-top: -21.4rem;  
+}  
+
+#waxing p {
+  word-wrap: break-word;
+  font-family: 'papyrus';
+  font-size: 1.8rem;
+  padding-left: 25rem;
+  margin-top: -1.2rem;
+  text-align: justify;
+  width: 39%;
+}
+    
+      footer /*.content-font*/{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*align-items: center;
+        justify-content: center;*/
+      }
+      
+      .footer-content{
+      /*  display: flex;*/
+       /* flex-flow: row wrap;*/
+        /*align-items: center;*/
+        justify-content: space-around;
+      }
+        
+      footer .information address {
+          flex-basis: 73%;
+      }
+        
+        
+      .footer p{
+        font-size: 1.134em;
+        overflow-wrap: break-word;
+        width: 95%;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* =========================================================================FOOTER FOR ALL PAGES REGARDING DESKTOP
+       ========================================================================== */
+
+
+
+
+
+
+
+
 
 
 
