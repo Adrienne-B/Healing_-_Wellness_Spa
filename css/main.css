@@ -228,7 +228,7 @@ footer tbody {
 }
 footer .content-wrapper {
   margin: 50px 0;	
-  width: 55%;
+  width: 100%;
 }
 
 footer .contact {
@@ -828,18 +828,18 @@ footer {
       font-size: 4.7rem;
       letter-spacing: 0.1rem;
       margin-left: 5.5rem;
-      margin-top: 21rem;
+      /*margin-top: 21rem;*/
   }
       
   .intro h2 {
       font-family: 'OFL Sorts Mill Goudy';
-      font-size: 3.6rem;
+      font-size: 3.9rem;
       font-style: italic;
       line-height: 1.9rem;
       margin-left: 5.6rem;
       margin-top: 6rem;
-      word-wrap: break-word;
-      width: 13rem;
+     word-wrap: break-word;
+      width: 100%;
   }
   
   .intro h1,  .intro h2 {
@@ -865,7 +865,7 @@ footer {
   .our_services p {
       color: #fff;
       font-size: 1.8rem;
-      margin-left: 4.3rem;
+      margin-left: 6.3rem;
       margin-top: -0.6rem;
       text-align: center;
       word-wrap: break-word;
@@ -933,7 +933,15 @@ hr {
   padding-top: 7rem;
 }
 
-.visual_2 {
+#pattern {
+  background-image: url(../css/img/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 125px;
+  margin-right: 2.6rem;
+}
+
+.visual {
   display: flex;
 }
 
@@ -959,10 +967,10 @@ hr {
 }
 
 #waxing img {
-  height: 24rem;
-  margin-left: 3.3rem;
+  height: 25rem;
+  margin-left: 8.3rem;
   padding-top: 9rem;
-  width: 39%;
+  width: 34%;
 }
   
 #waxing h2 {
@@ -978,32 +986,86 @@ hr {
   text-align: justify;
   width: 39%;
 }
+
+/***** Starting of the footer*****/
     
-      footer /*.content-font*/{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /*align-items: center;
-        justify-content: center;*/
-      }
-      
-      .footer-content{
-      /*  display: flex;*/
-       /* flex-flow: row wrap;*/
-        /*align-items: center;*/
-        justify-content: space-around;
-      }
-        
-      footer .information address {
-          flex-basis: 73%;
-      }
-        
-        
-      .footer p{
-        font-size: 1.134em;
-        overflow-wrap: break-word;
-        width: 95%;
-      }
+footer /*.content-font*/{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+  
+ footer h3 {
+  padding-right: 4rem;
+ }
+
+.footer-content{
+  align-items: center;
+  /*justify-content: space-around;*/
+  padding: 0 12px;
+  word-wrap: break-word;
+  width: 29%;
+
+}
+  
+.footer-content h3 {
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  width: 116%;
+}
+
+#address p {
+  font-size: 1.17rem;
+  margin-right: 1.0rem;
+  word-wrap: break-word;
+  width: 88%;
+
+}
+
+.content-wrapper tr {
+  font-size: 1.03rem;
+  padding-right: 4rem;
+  margin-right: 6.4rem;
+  word-wrap: break-word;
+  width: 98%;
+}
+
+.content-wrapper tbody {
+  font-size: 1.17rem;
+  word-wrap: break-word;
+  width: 208%;
+}
+
+.content-wrapper .info p {
+  font-size: 1.17rem;
+  margin-right: 4.5rem;
+  word-wrap: break-word;
+  width: 88%;
+
+}
+
+.content-wrapper #social p {
+  font-size: 1.17rem;
+  margin-right: 0.12rem;
+  word-wrap: break-word;
+  width: 98%;
+}
+
+/*
+footer .information address {
+  flex-basis: 73%;
+}
+*/
+
+/*#social p {
+  margin-right: 1.3rem;
+}
+
+.footer p{
+  font-size: 1.1em;
+  overflow-wrap: break-word;
+  width: 95%;
+ }*/
       
 
 
@@ -1137,4 +1199,3 @@ hr {
     page-break-after: avoid;
   }
 }
-   }
