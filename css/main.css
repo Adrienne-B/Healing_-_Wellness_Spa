@@ -929,24 +929,30 @@ hr {
   width: 39%;
 }
 
+/*
 hr {
   padding-top: 7rem;
-}
+}*/
 
 #pattern {
   background-image: url(../css/img/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 125px;
-  margin-right: 2.6rem;
+  height: 2457px;
+  margin-right: -0.4rem;
 }
 
 .visual {
   display: flex;
 }
 
+.visual_2 {
+  margin-top: -104rem; /*-93rem;*/ /*1750px*/
+}
+
 #massages img {
   height: 20.6rem;
+  margin-bottom: -5rem;
   margin-left: 8.1rem;
   padding-top: 9rem;
   width: 34%;
@@ -961,7 +967,7 @@ hr {
   font-family: 'papyrus';
   font-size: 1.8rem;
   padding-left: 25rem;
-  margin-top: -1.2rem;
+  margin-top: 5rem;
   text-align: justify;
   width: 39%;
 }
@@ -993,6 +999,7 @@ footer /*.content-font*/{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 20rem;
  }
   
  footer h3 {
@@ -1050,35 +1057,6 @@ footer /*.content-font*/{
   word-wrap: break-word;
   width: 98%;
 }
-
-/*
-footer .information address {
-  flex-basis: 73%;
-}
-*/
-
-/*#social p {
-  margin-right: 1.3rem;
-}
-
-.footer p{
-  font-size: 1.1em;
-  overflow-wrap: break-word;
-  width: 95%;
- }*/
-      
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /* =========================================================================FOOTER FOR ALL PAGES REGARDING DESKTOP
