@@ -393,7 +393,7 @@ footer h3 {
 footer p {
   font-size: 0.9rem;
   line-height: 0.1rem;
-  margin-left: 2.78rem;
+  margin-left: 7.78rem ;/*2.78rem;*/
   text-align: left;
 }
 
@@ -696,6 +696,7 @@ footer {
 .footer-content {
   display: flex;
   flex-direction: row;
+  flex-basis: 86rem;
 }
 
 .footer-content h3 {
@@ -787,11 +788,8 @@ footer {
    }
   
    .intro img {
-    /* position: relative;*/
-     /*margin-left: -7rem;*/
      margin-left: 2.6rem;
      margin-top: 3.5rem;
-     /*top: -21.5rem;*/
      width: 5.7rem;
    }
       
@@ -838,7 +836,7 @@ footer {
       line-height: 1.9rem;
       margin-left: 5.6rem;
       margin-top: 6rem;
-     word-wrap: break-word;
+      word-wrap: break-word;
       width: 100%;
   }
   
@@ -887,79 +885,74 @@ footer {
       margin: 10px;
       padding: 8.1px 12px;
   }
-    
+ 
+  /*
+hr {
+    border-bottom: 17px dotted #EAD7CA;
+}*/
+
+.visual, .visual_2 {
+  display: flex;
+}
+/*
 .visual #facial {
   display: flex;
 }
 
 .visual #massage {
   display: flex;
-}
+}*/
 
 .visual h2, .visual_2 h2 {
     color: #000;
     font-family: 'pristina';
     font-size: 2.5rem;
     text-align: center;
-    margin-right: -12rem;
+    margin-right: -23rem;
  }
-    
-hr {
-    border-bottom: 17px dotted #EAD7CA;
-}
-   
- #facial h2 {
-  margin-left: 4rem;
+
+ /*
+.visual_2 {
+  margin-top: -104rem; /*-93rem;*/ /*1750px*/
+  }
+
+.visual #facial h2 {
+  margin-left: -1rem;
+  margin-top: -26rem;
 }
 
 #facial img {
-    height: 25rem;
+    height: 30rem;
     margin-left: 9.3rem;
     padding-top: 10.2rem;
-    width: 95%;
+    width: 29%;
 }
 
 #facial p {
   word-wrap: break-word;
   font-family: 'papyrus';
   font-size: 1.8rem;
-  padding-left: 1rem;
-  margin-top: 12.8rem;
+  margin-left: 35rem;
+  margin-top: -1.2rem;
   text-align: justify;
-  width: 39%;
-}
-
-/*
-hr {
-  padding-top: 7rem;
-}*/
-
-#pattern {
-  background-image: url(../css/img/pattern.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 2457px;
-  margin-right: -0.4rem;
-}
-
-.visual {
-  display: flex;
+  width: 36%;
 }
 
 .visual_2 {
-  margin-top: -104rem; /*-93rem;*/ /*1750px*/
+  margin-bottom: 74rem;
 }
 
 #massages img {
-  height: 20.6rem;
-  margin-bottom: -5rem;
+  height: 23.6rem;
+  margin-bottom: 74rem;
   margin-left: 8.1rem;
   padding-top: 9rem;
   width: 34%;
 }
 
 #massages h2 {
-  margin-top: -20.4rem;
+  margin-top: -96.4rem; /*-128.4rem;*/
+  margin-bottom: -34.4rem; /*-3.4rem;*/
 }
 
 #massages p {
@@ -967,20 +960,26 @@ hr {
   font-family: 'papyrus';
   font-size: 1.8rem;
   padding-left: 25rem;
-  margin-top: 5rem;
+  margin-top: 36rem;
   text-align: justify;
-  width: 39%;
+  width: 37%;
 }
 
-#waxing img {
+.visual_2  img { /*This seems to move the entire visual_2 section*/
+  margin-top: -100rem; /*-54rem;*/
+}
+
+#waxing img  {
   height: 25rem;
   margin-left: 8.3rem;
+  margin-top: -220rem;
   padding-top: 9rem;
   width: 34%;
 }
   
 #waxing h2 {
-  margin-top: -21.4rem;  
+  margin-left: 4.5rem;
+  margin-top: -115.4rem;  
 }  
 
 #waxing p {
@@ -991,6 +990,15 @@ hr {
   margin-top: -1.2rem;
   text-align: justify;
   width: 39%;
+}
+
+
+#pattern {
+  background-image: url(../css/img/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2457px;
+  margin-right: -0.4rem;
 }
 
 /***** Starting of the footer*****/
@@ -1021,9 +1029,13 @@ footer /*.content-font*/{
   width: 116%;
 }
 
+#address {
+  margin-right: -0.5rem;
+}
+
 #address p {
   font-size: 1.17rem;
-  margin-right: 1.0rem;
+  margin-right: 0.5rem;
   word-wrap: break-word;
   width: 88%;
 
@@ -1034,7 +1046,7 @@ footer /*.content-font*/{
   padding-right: 4rem;
   margin-right: 6.4rem;
   word-wrap: break-word;
-  width: 98%;
+  width: 128%;
 }
 
 .content-wrapper tbody {
