@@ -96,7 +96,6 @@ html {
 }
  
 body {
-  background-color: #F4E6DC;
   font-size: 1em;
  /* color: #e2e3ed;*/
 }
@@ -237,7 +236,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   align-items: center;
 }
 
@@ -254,6 +253,11 @@ footer .copyright {
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */ 
+
+/*
+body {
+  background-color: #F4E6DC;
+}*/
 
 header {
   padding: 0px 0; /*makes the height of the header longer*/
@@ -313,7 +317,9 @@ header {
   background-color: #CEB3A1;
   /*height: 10rem;*/
   height: 13rem;
-  margin-top: -1.5rem;
+  margin-top: -0.24rem;
+  padding-top: 1.2rem;
+  padding-bottom: 3.56rem;
 }
 
 .our_services h2 {
@@ -349,21 +355,45 @@ header {
 	padding: 0.1px 1px;
 }
 
-.visual h2, .visual_2 h2 {
+.visual {
+ background-color: #F4E6DC;
+ height: 94rem;
+ padding-top: 9rem;
+ position: relative;
+ top: -0.5rem;
+}
+
+.visual h2 {
   color: #000;
   font-family: 'pristina';
-  font-size: 1.4rem;
+  font-size: 2.6rem;
   text-align: center;
 }
 
 .visual p {
-  word-wrap: break-word;
+  font-size: 1.4rem;
   font-family: 'papyrus';
-  margin-left: 7.0rem;;
+  margin-left: 7.0rem;
+  word-wrap: break-word;
   width: 48%;
 }
 
-.visual_2 p {
+#massages {
+  margin-top: 24rem;
+}
+
+#massages img {
+  height: 11rem; /*8rem;*/
+  margin-left: 6.1rem; /*7.1rem;*/
+  margin-top: -86.9rem;
+  width: 52%; /*43%;*/
+}
+
+#massages h2 {
+  margin-top: -36.9rem;
+}
+
+ #massage p {
   word-wrap: break-word;
   font-family: 'papyrus';
   margin-left: 7.0rem;;
@@ -375,15 +405,27 @@ hr {
 }
 
 #facial img, #waxing img {
-  height: 14rem;
-  margin-left: 7.3rem;
-  width: 43%;
+  height: 24rem;
+  margin-left: 4.5rem;
+  width: 63%;
 }
 
-#massages img {
-    height: 8rem;
-    margin-left: 7.1rem;
-    width: 43%;
+#waxing img {
+  height: 14rem;
+  margin-left: 5.3rem;
+  margin-top: -122.9rem;
+  width: 58%;
+}
+
+#waxing h2{
+ /* margin-left: 5.3rem;*/
+  margin-top: -51.9rem;
+}
+
+footer {
+  display: flex;
+  margin-top: -5rem;
+  padding-top: 5rem;
 }
 
 footer h3 {
@@ -403,9 +445,12 @@ footer #store_hours {
 }
 footer tr {
   font-size: 0.7rem;
+  position: relative;
+  left: 7rem;
 }
 
  .social-icons img {
+  margin-left: 4rem;
    margin-top: 2.8rem;
    width: 1.5rem;
 }
@@ -510,6 +555,11 @@ footer tr {
 
    @media only screen and (min-width:768px) {
     /*Tablet styles here*/
+
+.visual_container {
+  background-color: #F4E6DC;
+}
+
  header {
   padding: 0px 0; /*makes the height of the header longer*/
  }
@@ -584,7 +634,7 @@ footer tr {
     background-color: #CEB3A1;
       /*height: 10rem;*/
     height: 28rem;
-    margin-top: -2.5rem;
+    margin-top: -0.5rem; /*-2.5rem;*/
 }
     
 .our_services h2 {
@@ -619,9 +669,14 @@ footer tr {
     margin: 10px;
     padding: 8.1px 12px;
 }
- 
 
-.visual h2, .visual_2 h2 {
+.visual {
+  display: flex;
+  flex-basis: 45rem;
+  padding-top: 21rem;;
+}
+ 
+.visual h2 {
   color: #000;
   font-family: 'pristina';
   font-size: 3.4rem;
@@ -648,122 +703,110 @@ hr {
   border-bottom: 17px dotted #EAD7CA;
 }
 
-#facial img, #waxing img {
+#facial img {
   height: 30rem;
   margin-left: 11.8rem;
   width: 50%;
 }
 
+#facial img {
+  height: 37rem;
+  margin-left: 9.3rem;
+  width: 59%;
+}
+
+#massages h2 {
+  margin-top: -0.9rem;
+}
+
 #massages img {
-    height: 19rem;
-    margin-left: 11.1rem;
-    width: 50%;
+  height: 19rem;
+  margin-left: 11.1rem;
+  margin-top: -26rem;
+  width: 50%;
 }
 
 #massages p {
   font-size: 1.9rem;
   height: 19rem;
-  margin-left: 11.1rem;
+  margin-left: 12rem;
+  margin-bottom: 3rem;
   text-align: justify;
   width: 50%;
 }
 
+#waxing img {
+  height: 37rem;
+  margin-left: 9.3rem;
+  position: relative;
+  top: 54rem;
+  width: 59%;
+}
+
+#waxing h2 {
+  margin-top: 15.1rem;
+}
+
 footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-      /*align-items: center;
-      justify-content: center;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-content { 
+  flex-basis: 43rem;
 }
     
-.content-wrapper {
-    display: flex;
-     /* flex-flow: row wrap;*/
-      /*align-items: center;*/
-   justify-content: space-around;
-   margin-left: -55rem;
-}
-      
 .content-wrapper h3 {
   font-size: 1.6rem;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 86rem;
-}
-
 .footer-content h3 {
   font-size: 1.7rem;
+  position: relative;
+  left: -22rem;
   word-wrap: break-word;
   width: 167%;
 }
 
 .content-wrapper p {
   font-size: 1.5rem;
+  line-height: 0.4rem;
+}
+
+#address {
+  position: relative;
+  right: 3.9rem;
+  top: 1.5rem;
 }
 
 .content-wrapper tr {
   font-size: 1.4rem;
-  word-wrap: break-word;
-  width: 12rem;
 }
-/*.footer-content address {
-        flex-basis: 73%;
-        margin-left: 2rem;
-    }
-      
-    .footer-content #social {
-      margin-left: -2rem;
-    }
-      
-    footer p{
-      font-size: 1.4em;
-      line-height: 0.3rem;
-      margin-left: -20rem;
-      overflow-wrap: break-word;
-      width: 200%;
-    }
-    
 
+#store_hours {
+  position: relative;
+  left: 18rem;
+  bottom: 10rem
+}
 
-
-
-   /* footer h3 {
-      font-size: 2.1rem;
-    }*/
-    
-    /*footer p {
-      font-size: 0.9rem;
-      line-height: 0.1rem;
-      margin-left: 2.78rem;
-      text-align: left;
-    }*/
-    
-    /*
-    footer #store_hours {
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-    }
-    footer tr {
-      font-size: 0.7rem;
-    }
-    
 .info {
-  margin-left: 23rem;
-}*/
+  position: relative;
+  left: -4rem;
+  bottom: 1rem
+}
 
+#social {
+  position: relative;
+  left: 18rem;
+  bottom: 14rem
 
-     .social-icons img {
-       margin-top: 2.8rem;
-       width: 1.5rem;
-    }
+}
+
+.social-icons img {
+   margin-top: 2.8rem;
+   width: 1.5rem;
+ }
 
 
 
@@ -778,220 +821,213 @@ footer {
    @media only screen and (min-width:1200px) {
 
 
-   /*Tablet styles here*/
-   header {
-    padding: 0px 0; /*makes the height of the header longer*/
-   }
+	  	
+	
+#menu-bg{
+		display: none;
+	/* put hamburger nav link that is for mobile and tablet as none so that it wont show in  desktop nav*/
+}
+	
+header, span{
+	font-size: 26px;
+	padding-left: 3px;
+}
+
+header nav {
+	/*float: right;*/
+	padding: 46px 10px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+	
+header nav ul li {
+	/* font-family: 'Cormorant SC', serif; */	
+  font-family: 'Domine', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 15px 18px;
+	display: inline;
+}	
+	 
+	   
+   /*Desktop styles here*/
+header {
+   padding: 0px 0; /*makes the height of the header longer*/
+}
   
-   header img {
-     margin-top: 3rem;
-   }
+header img {
+  margin-top: 3rem;
+}
   
-   .intro img {
-     margin-left: 2.6rem;
-     margin-top: 3.5rem;
-     width: 5.7rem;
-   }
+.intro img {
+  margin-left: 2.6rem;
+  margin-top: 3.5rem;
+  width: 5.7rem;
+}
       
-  .hero-area  {
-     background-image:url(../css/img/intro.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 75rem;
-  }
+.hero-area  {
+  background-image:url(../css/img/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75rem;
+}
       
-  #overlay {
-     background-color: rgba(0, 0, 0, 0.3);
-     height: 73.6rem;
-     margin-top: -0.3rem;
-     width: 100%;
-  }
+ #overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 73.6rem;
+  margin-top: -0.3rem;
+  width: 100%;
+}
       
-  .intro {
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-  }
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+ }
       
-  .intro img {
-      margin-left: 5.8rem;
-      margin-top: 4rem;
-      width: 6.9rem;
-  }
+.intro img {
+   margin-left: 5.8rem;
+   margin-top: 4rem;
+   width: 6.9rem;
+ }
       
-  .intro h1 {
-      font-family: 'pristina';
-      font-size: 4.7rem;
-      letter-spacing: 0.1rem;
-      margin-left: 5.5rem;
+ .intro h1 {
+    font-family: 'pristina';
+    font-size: 4.7rem;
+    letter-spacing: 0.1rem;
+    margin-left: 5.5rem;
       /*margin-top: 21rem;*/
-  }
+ }
       
   .intro h2 {
-      font-family: 'OFL Sorts Mill Goudy';
-      font-size: 3.9rem;
-      font-style: italic;
-      line-height: 1.9rem;
-      margin-left: 5.6rem;
-      margin-top: 6rem;
-      word-wrap: break-word;
-      width: 100%;
-  }
+    font-family: 'OFL Sorts Mill Goudy';
+    font-size: 3.9rem;
+    font-style: italic;
+    line-height: 1.9rem;
+    margin-left: 5.6rem;
+    margin-top: 6rem;
+    word-wrap: break-word;
+    width: 100%;
+}
   
-  .intro h1,  .intro h2 {
-      position: relative;
-      left: 4px;
-      top: 141px;
-  }
+.intro h1,  .intro h2 {
+    position: relative;
+    left: 4px;
+    top: 141px;
+}
       
-  .our_services {
-      background-color: #CEB3A1;
+.our_services {
+    background-color: #CEB3A1;
         /*height: 10rem;*/
-      height: 43rem;
-      margin-top: -5.3rem;
-  }
+    height: 33rem;
+    margin-top: -1.8rem;
+ }
       
  .our_services h2 {
-      font-family: 'papyrus';
-      font-size: 4.4rem;
-      padding-top: 9.5rem;
-      text-align: center;
-  }
-      
-  .our_services p {
-      color: #fff;
-      font-size: 1.8rem;
-      margin-left: 6.3rem;
-      margin-top: -0.6rem;
-      text-align: center;
-      word-wrap: break-word;
-      width: 84%;
-  }
-      
-   #btn {
-      position: relative;
-      left: 30rem;
-      top: 2.6rem;
-  }
-      
-  #btn, .button{
-      background-color: #BF4225;
-      color: white;
-      display: inline-block;
-      font-size: 1.2rem;
-      font-weight: 300;
-      margin: 10px;
-      padding: 8.1px 12px;
-  }
- 
-  /*
-hr {
-    border-bottom: 17px dotted #EAD7CA;
-}*/
-
-.visual, .visual_2 {
-  display: flex;
-}
-/*
-.visual #facial {
-  display: flex;
-}
-
-.visual #massage {
-  display: flex;
-}*/
-
-.visual h2, .visual_2 h2 {
-    color: #000;
-    font-family: 'pristina';
-    font-size: 2.5rem;
+    font-family: 'papyrus';
+    font-size: 4.4rem;
+    padding-top: 9.5rem;
     text-align: center;
-    margin-right: -23rem;
- }
-
- /*
-.visual_2 {
-  margin-top: -104rem; /*-93rem;*/ /*1750px*/
-  }
-
-.visual #facial h2 {
-  margin-left: -1rem;
-  margin-top: -26rem;
+}
+      
+.our_services p {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-left: 6.3rem;
+    margin-top: -0.6rem;
+    text-align: center;
+    word-wrap: break-word;
+    width: 84%;
+}
+      
+#btn {
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 58rem;
+    top: -95rem;
+    /*margin-top: -84rem;*/
+}
+      
+#btn, .button{
+    background-color: #BF4225;
+    color: white;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 5.0px 5px;
 }
 
 #facial img {
-    height: 30rem;
-    margin-left: 9.3rem;
-    padding-top: 10.2rem;
-    width: 29%;
-}
-
-#facial p {
-  word-wrap: break-word;
-  font-family: 'papyrus';
-  font-size: 1.8rem;
-  margin-left: 35rem;
-  margin-top: -1.2rem;
-  text-align: justify;
+  height: 36rem;
+  margin-left: 7.8rem;
+  margin-top: 14rem;
   width: 36%;
 }
 
-.visual_2 {
-  margin-bottom: 74rem;
+#facial h2 {
+ position: relative;
+ left: 14rem;
+ top: -36rem;
 }
 
+#facial p {
+  position: relative;
+  left: 28rem;
+  top: -36rem;
+  word-wrap: break-word;
+  width: 37%;
+ }
+
 #massages img {
-  height: 23.6rem;
-  margin-bottom: 74rem;
-  margin-left: 8.1rem;
-  padding-top: 9rem;
-  width: 34%;
+  height: 29rem;
+  margin-left: 7.8rem;
+  position: relative;
+  top: 3rem;
+  width: 36%;
 }
 
 #massages h2 {
-  margin-top: -96.4rem; /*-128.4rem;*/
-  margin-bottom: -34.4rem; /*-3.4rem;*/
+ position: relative;
+ left: 14rem;
+ top: -23rem;
 }
 
 #massages p {
+  position: relative;
+  left: 28rem;
+  top: -24rem;
   word-wrap: break-word;
-  font-family: 'papyrus';
-  font-size: 1.8rem;
-  padding-left: 25rem;
-  margin-top: 36rem;
-  text-align: justify;
   width: 37%;
+ }
+
+ #waxing img {
+  height: 36rem;
+  position: relative;
+  left: -1rem;
+  top: 53rem;
+  width: 36%;
 }
 
-.visual_2  img { /*This seems to move the entire visual_2 section*/
-  margin-top: -100rem; /*-54rem;*/
-}
-
-#waxing img  {
-  height: 25rem;
-  margin-left: 8.3rem;
-  margin-top: -220rem;
-  padding-top: 9rem;
-  width: 34%;
-}
-  
 #waxing h2 {
-  margin-left: 4.5rem;
-  margin-top: -115.4rem;  
-}  
+  position: relative;
+ left: 14rem;
+ top: -34rem;
+}
 
 #waxing p {
+  position: relative;
+  left: 28rem;
+  top: -35rem;
   word-wrap: break-word;
-  font-family: 'papyrus';
-  font-size: 1.8rem;
-  padding-left: 25rem;
-  margin-top: -1.2rem;
-  text-align: justify;
-  width: 39%;
-}
-
+  width: 37%;
+ }
 
 #pattern {
   background-image: url(../css/img/pattern.png);
@@ -1005,72 +1041,19 @@ hr {
     
 footer /*.content-font*/{
   display: flex;
-  flex-direction: row;
+  flex-direction: row;+
   flex-wrap: wrap;
-  margin-top: 20rem;
+  margin-top: 0rem;
  }
   
  footer h3 {
   padding-right: 4rem;
  }
 
-.footer-content{
-  align-items: center;
-  /*justify-content: space-around;*/
-  padding: 0 12px;
-  word-wrap: break-word;
-  width: 29%;
-
-}
-  
-.footer-content h3 {
-  font-size: 1.3rem;
-  word-wrap: break-word;
-  width: 116%;
-}
-
-#address {
-  margin-right: -0.5rem;
-}
-
-#address p {
-  font-size: 1.17rem;
-  margin-right: 0.5rem;
-  word-wrap: break-word;
-  width: 88%;
-
-}
-
-.content-wrapper tr {
-  font-size: 1.03rem;
-  padding-right: 4rem;
-  margin-right: 6.4rem;
-  word-wrap: break-word;
-  width: 128%;
-}
-
-.content-wrapper tbody {
-  font-size: 1.17rem;
-  word-wrap: break-word;
-  width: 208%;
-}
-
-.content-wrapper .info p {
-  font-size: 1.17rem;
-  margin-right: 4.5rem;
-  word-wrap: break-word;
-  width: 88%;
-
-}
-
-.content-wrapper #social p {
-  font-size: 1.17rem;
-  margin-right: 0.12rem;
-  word-wrap: break-word;
-  width: 98%;
-}
-
-
+ #address h3 {
+  position: relative;
+  left: -28em;
+ }
     /* =========================================================================FOOTER FOR ALL PAGES REGARDING DESKTOP
        ========================================================================== */
 
