@@ -1,0 +1,11 @@
+@keyframes
+
+}
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 26s;
+
+}
+.visual{
+animation-name: left;
+animation-duration: 4s;
+}

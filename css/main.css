@@ -443,6 +443,7 @@ footer #store_hours {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
 footer tr {
   font-size: 0.7rem;
   position: relative;
@@ -1041,9 +1042,13 @@ header img {
     
 footer /*.content-font*/{
   display: flex;
-  flex-direction: row;+
+  flex-direction: row;
   flex-wrap: wrap;
   margin-top: 0rem;
+ }
+
+ .footer-content {
+  margin-left: 15rem;
  }
   
  footer h3 {
@@ -1051,6 +1056,31 @@ footer /*.content-font*/{
  }
 
  #address h3 {
+  position: relative;
+  left: -26em;
+ }
+
+ #address p {
+  position: relative;
+  left: -5em;
+ }
+
+ #store_hours h3 {
+  position: relative;
+  left: -18em;
+ }
+
+ #store_hours p {
+  position: relative;
+  left: -35em;
+ }
+
+ #info h3 {
+  position: relative;
+  left: -18em;
+ }
+
+ #social {
   position: relative;
   left: -28em;
  }
